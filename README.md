@@ -1,6 +1,5 @@
 # Images uploader
-Uploader d'images fait en PHP pour le fun, <a href="http://myimg.tk">démo ici</a><br><br>
-Un grand merci à <a href="https://www.w3schools.com">W3school</a> et à <a href="https://www.w3schools.com/php/php_file_upload.asp">cette page</a> d'aide
+Uploader d'images fait en PHP pour le fun, <a href="http://myimg.tk">démo ici</a><br>
 
 <img src="https://i.imgur.com/2pwdcmB.png">
 
@@ -12,3 +11,6 @@ Pour avoir accès à la page d'administratrion, changez cette ligne sur les page
 $verif = votre_ip;
 ```
 Et remplacez y par votre adresse IP, pour un peu plus de sécurité vous pouvez encoder votre IP en base64 et remplacez la ligne par la fonction php base64_decode() suivi de votre adresse IP encryptée en base64
+
+#Crédits
+Un grand merci à <a href="https://www.w3schools.com">W3school</a> et à <a href="https://www.w3schools.com/php/php_file_upload.asp">cette page</a> d'aide
