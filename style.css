@@ -1,0 +1,44 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #121212;
+  color: #ccc;
+}
+
+form {
+  margin-top: 75px;
+}
+
+.uploadLabel {
+  background-color:rgb(34, 34, 34);
+  border: none;
+  display: inline-block;
+  padding: 7px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 24px;
+}
+
+.uploadButton {
+  display: none;
+}
+
+  .wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 0.1px;
+  grid-row-gap: 0.1px;
+  float: bottom;
+}
+
+.wrapper > div img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] { display: none;}
+
+img[src*="https://cdn.000webhost.com/000webhost_war-message_small.png"] { display: none;}
+
+.disclaimer {
+display: none;
+}
