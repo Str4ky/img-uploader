@@ -12,5 +12,5 @@ $verif = votre_ip;
 ```
 Et remplacez y par votre adresse IP, pour un peu plus de sécurité vous pouvez encoder votre IP en base64 et remplacez la ligne par la fonction php base64_decode() suivi de votre adresse IP encryptée en base64
 
-#Crédits
+# Crédits
 Un grand merci à <a href="https://www.w3schools.com">W3school</a> et à <a href="https://www.w3schools.com/php/php_file_upload.asp">cette page</a> d'aide
