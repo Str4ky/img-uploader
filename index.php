@@ -1,5 +1,5 @@
 <?php
-//Initialisation de la sesion
+//Initialisation de la session
 session_start();
 //Vérification de l'existence d'une variable de session
 if (!isset($_SESSION['message']))
