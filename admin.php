@@ -46,6 +46,7 @@ $path    = './';
 $files = scandir($path);
 //Récupération des fichiers du site à l'exception des fichiers principaux du site
 $files = array_diff(scandir($path), array('.', '..', 'index.php', 'upload.php', 'admin.php', 'delete.php', 'style.css', '.htaccess', 'README.md', 'logo.png', 'favicon.png'));
+//Affichage des images du site
 foreach($files as $file){
   echo "<center><img src='$file' width='300' height='200' style='border-radius: 8px; object-fit: cover;'/><br><br><a href='$file' target='_blank'>$file</a><br><br><a href='delete.php?file=$file' class='uploadLabel' style='text-decoration: none;'><i class='fa-solid fa-trash'></i> Supprimer</a><br><br><br><br></center>";
 }
