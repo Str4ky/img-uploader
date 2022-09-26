@@ -35,7 +35,7 @@ else
     <body>
     <center>
     <h1>MyImg 🖼️</h1>
-    <h3>Par <a href="https://github.com/Str4ky" target="_blank" style="color: white;">Straky</a></h3>
+    <h3>Par <a href="https://github.com/Str4ky" target="_blank" style="color: white;">Straky</a> | <a href="https://github.com/Str4ky/img-uploader" target="_blank" style="color: white;">Code source</a></h3>
         <form action="upload.php" method="post" enctype="multipart/form-data">
         <!-- Bouton parcourir -->
         <label class="uploadLabel">
